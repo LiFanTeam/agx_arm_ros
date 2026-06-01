@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # The default CAN name can be set by the user via command-line parameters.
-DEFAULT_CAN_NAME="${1:-can0}"
+DEFAULT_CAN_NAME="${1:-can_nero}"
 
 # The default bitrate for a single CAN module can be set by the user via command-line parameters.
 DEFAULT_BITRATE="${2:-1000000}"
