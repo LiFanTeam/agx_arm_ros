@@ -25,7 +25,7 @@ def generate_launch_description():
 
     can_port_arg = DeclareLaunchArgument(
         'can_port',
-        default_value='can0',
+        default_value='can_nero',
         description='CAN port to be used by the AGX Arm node.'
     )
 

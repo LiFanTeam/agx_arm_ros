@@ -78,7 +78,7 @@ class AgxArmRosNode(Node):
 
     ### initialization methods
     def _declare_parameters(self):
-        self.declare_parameter("can_port", "can0")
+        self.declare_parameter("can_port", "can_nero")
         self.declare_parameter("arm_type", "piper")
         self.declare_parameter("auto_enable", True)
         self.declare_parameter("fast_mode", False)
